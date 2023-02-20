@@ -1,0 +1,17 @@
+
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+.App{
+
+    padding-top: 100px;
+    padding-bottom: 70px;
+
+}
+
+.pageTitle{
+display: flex;
+justify-content: center;
+}

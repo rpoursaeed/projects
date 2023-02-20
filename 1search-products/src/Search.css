@@ -1,0 +1,36 @@
+html,
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+}
+
+.products {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+.product img {
+  height: 200px;
+  object-fit: contain;
+  width: 100%;
+}
+.product .product-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  text-align: center;
+}
+.product .product-details header {
+  font-weight: 400;
+}
